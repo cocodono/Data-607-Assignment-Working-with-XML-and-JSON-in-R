@@ -18,7 +18,7 @@
 
   <Book Title= "Ressurection Man">
     <Author>Eoin McNamee</Author>
-    <Length (Pages)>240</Length (Pages)>
+    <"Length Pages">240</"Length Pages">
     <PublishingYear>1995</PublishingYear>
     <Publisher>Picador</Publisher>
   </Book>
