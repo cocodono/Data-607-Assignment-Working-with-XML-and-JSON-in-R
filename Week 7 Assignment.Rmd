@@ -1,0 +1,47 @@
+---
+title: "Data 607 Week 7 Assignment"
+author: "Coco Donovan"
+date: "`r Sys.Date()`"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+## Introduction:
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Loading Necessary packages
+
+```{r}
+library(XML)
+library(methods)
+library(rjson)
+library(dplyr)
+```
+
+## XML
+
+```{r}
+bookinfo_xml <- xmlToDataFrame('bookinfo.xml')
+
+bookinfo_xml
+```
+
+## HTML
+
+```{r}
+bookinfo_html <- readHTMLTable('bookinfo.html')
+
+bookinfo_html
+```
+
+## JSON
+
+```{r}
+bookinfo_json <- fromJSON(file = "bookinfo.json") %>% as.data.frame
+
+bookinfo_json
+```
