@@ -2,6 +2,7 @@
 <bookinfo>
   
   <Book Title= "Making Sense of the Troubles: The Story of the Conflict in Northern Ireland">
+    <Title>Making Sense of the Troubles: The Story of the Conflict in Northern Ireland</Title>
     <Authors>
       <Author>David McKittrick</Author>
       <Author>David McVea</Author>
@@ -12,6 +13,7 @@
   </Book>
 
   <Book Title= "Milkman">
+    <Title>Milkman</Title>
     <Authors>
         <Author>Anna Burns</Author>
     </Authors>
@@ -21,6 +23,7 @@
   </Book>
 
   <Book Title= "Ressurection Man">
+    <Title>Ressurection Man</Title>
     <Authors>
       <Author>Eoin McNamee</Author>
     </Authors>
