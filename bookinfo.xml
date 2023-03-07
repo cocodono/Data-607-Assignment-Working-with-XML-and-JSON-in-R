@@ -2,22 +2,28 @@
 <bookinfo>
   
   <Book Title= "Making Sense of the Troubles: The Story of the Conflict in Northern Ireland">
-    <Author>David McKittrick</Author>
-    <Author>David McVea</Author>
+    <Authors>
+      <Author>David McKittrick</Author>
+      <Author>David McVea</Author>
+    </Authors>
     <Length>368</Length>
     <PublishingYear>2002</PublishingYear>
     <Publisher>New Amsterdam Books</Publisher>
   </Book>
 
   <Book Title= "Milkman">
-    <Author>Anna Burns</Author>
+    <Authors>
+        <Author>Anna Burns</Author>
+    </Authors>
     <Length>368</Length>
     <PublishingYear>2018</PublishingYear>
     <Publisher>Faber Faber</Publisher>
   </Book>
 
   <Book Title= "Ressurection Man">
-    <Author>Eoin McNamee</Author>
+    <Authors>
+      <Author>Eoin McNamee</Author>
+    </Authors>
     <Length>240</Length>
     <PublishingYear>1995</PublishingYear>
     <Publisher>Picador</Publisher>
