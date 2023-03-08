@@ -9,6 +9,15 @@ output:
 
 ## Introduction:
 
+I have created three different files in three different file formats (JSON, HTML
+and XML). I chose three different books that focus on the Troubles in Northern
+Ireland (a subject that played a large role in my mom's younger years). The goal 
+of this assignment is to create three different files in three different file 
+formats and display each of them in a data frame. I will attempt to represent the 
+data with the same format; however, I will also make a point to recognize when 
+the formatting is different as that will inform how I attempt to work with 
+different file formats in the future.
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
@@ -45,3 +54,17 @@ bookinfo_json <- fromJSON(file = "bookinfo.json") %>% as.data.frame
 
 bookinfo_json
 ```
+
+
+## Are the three data frames identical?
+
+The three data frames are identical in presentation despite the different storage
+methods. The challenge with each method seemed to be to find a creative way to 
+store the multiple authors. I know that with JSON you can store multiple items 
+in an array which is what I had wanted to do, however that method was not working
+when I wanted to display my file in a data frame. A similar issue came up with 
+my html file (the two authors were stored as one item). Though, the way I stored the two
+authors for one book was different as the XML format made it easy to separately 
+store authors as individual items. I know I could go back, now that I have the 
+files displayed in tables, and separate those authors easily, but this was a 
+learning process for different data structures.
